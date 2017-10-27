@@ -55,6 +55,9 @@
                                     <constraint firstAttribute="height" constant="50" id="kTZ-ki-oaB"/>
                                 </constraints>
                                 <state key="normal" title="Pomagam ❤️"/>
+                                <connections>
+                                    <action selector="didSelectPayment:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xHy-vq-LcQ"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KPd-ci-k5y">
                                 <rect key="frame" x="16" y="206" width="343" height="128"/>
@@ -69,8 +72,10 @@
                                                 <state key="normal" title="🥉 10 zł">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <state key="selected" backgroundImage="tip_button_active"/>
                                                 <state key="highlighted" backgroundImage="tip_button_active"/>
+                                                <connections>
+                                                    <action selector="didSelectAmount:" destination="BYZ-38-t0r" eventType="touchUpInside" id="axe-Y8-sYe"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dql-ua-SE9">
                                                 <rect key="frame" x="114.5" y="0.0" width="84" height="80"/>
@@ -135,6 +140,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="payment" destination="sVA-2C-HZk" id="GFp-ut-oWQ"/>
+                        <outletCollection property="tipButtons" destination="Hio-aR-ba8" collectionClass="NSMutableArray" id="FBi-Eh-k5x"/>
+                        <outletCollection property="tipButtons" destination="dql-ua-SE9" collectionClass="NSMutableArray" id="dbh-IJ-LAO"/>
+                        <outletCollection property="tipButtons" destination="i1v-Ur-JR8" collectionClass="NSMutableArray" id="Ahb-8v-hXh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
