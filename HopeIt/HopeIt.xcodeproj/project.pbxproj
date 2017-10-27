@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		1418AF9E66C027DCBA31A3A1 /* Pods_HopeIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C574EF98BED462AA7807EA4A /* Pods_HopeIt.framework */; };
-		50CCEB0C1FA3A9FF00134258 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCEB0B1FA3A9FF00134258 /* AppDelegate.swift */; };
-		50CCEB0E1FA3A9FF00134258 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCEB0D1FA3A9FF00134258 /* ViewController.swift */; };
-		50CCEB111FA3A9FF00134258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CCEB0F1FA3A9FF00134258 /* Main.storyboard */; };
-		50CCEB131FA3A9FF00134258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CCEB121FA3A9FF00134258 /* Assets.xcassets */; };
-		50CCEB161FA3A9FF00134258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CCEB141FA3A9FF00134258 /* LaunchScreen.storyboard */; };
+		50CCEB481FA3C63900134258 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCEB3E1FA3C63900134258 /* ViewController.swift */; };
+		50CCEB491FA3C63900134258 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCEB3F1FA3C63900134258 /* AppDelegate.swift */; };
+		50CCEB4A1FA3C63900134258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CCEB401FA3C63900134258 /* Assets.xcassets */; };
+		50CCEB4B1FA3C63900134258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CCEB441FA3C63900134258 /* LaunchScreen.storyboard */; };
+		50CCEB4C1FA3C63900134258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CCEB451FA3C63900134258 /* Main.storyboard */; };
+		50CCEB4E1FA3C64B00134258 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCEB4D1FA3C64B00134258 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50CCEB081FA3A9FF00134258 /* HopeIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopeIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		50CCEB0B1FA3A9FF00134258 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50CCEB0D1FA3A9FF00134258 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		50CCEB101FA3A9FF00134258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		50CCEB121FA3A9FF00134258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		50CCEB151FA3A9FF00134258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50CCEB171FA3A9FF00134258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50CCEB3E1FA3C63900134258 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50CCEB3F1FA3C63900134258 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50CCEB401FA3C63900134258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50CCEB441FA3C63900134258 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50CCEB451FA3C63900134258 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		50CCEB4D1FA3C64B00134258 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5DA577F4EFEBD42F63DFC5B0 /* Pods-HopeIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HopeIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HopeIt/Pods-HopeIt.debug.xcconfig"; sourceTree = "<group>"; };
 		8A0FFB6BF959C55809E4743E /* Pods-HopeIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HopeIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-HopeIt/Pods-HopeIt.release.xcconfig"; sourceTree = "<group>"; };
 		C574EF98BED462AA7807EA4A /* Pods_HopeIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HopeIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,14 +71,71 @@
 		50CCEB0A1FA3A9FF00134258 /* HopeIt */ = {
 			isa = PBXGroup;
 			children = (
-				50CCEB0B1FA3A9FF00134258 /* AppDelegate.swift */,
-				50CCEB0D1FA3A9FF00134258 /* ViewController.swift */,
-				50CCEB0F1FA3A9FF00134258 /* Main.storyboard */,
-				50CCEB121FA3A9FF00134258 /* Assets.xcassets */,
-				50CCEB141FA3A9FF00134258 /* LaunchScreen.storyboard */,
+				50CCEB401FA3C63900134258 /* Assets.xcassets */,
+				50CCEB3D1FA3C63900134258 /* Controllers */,
+				50CCEB471FA3C63900134258 /* Extensions */,
+				50CCEB411FA3C63900134258 /* Models */,
+				50CCEB3C1FA3C63900134258 /* Protocols */,
+				50CCEB431FA3C63900134258 /* Storyboards */,
+				50CCEB461FA3C63900134258 /* ViewModels */,
+				50CCEB421FA3C63900134258 /* Views */,
 				50CCEB171FA3A9FF00134258 /* Info.plist */,
 			);
 			path = HopeIt;
+			sourceTree = "<group>";
+		};
+		50CCEB3C1FA3C63900134258 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		50CCEB3D1FA3C63900134258 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50CCEB3E1FA3C63900134258 /* ViewController.swift */,
+				50CCEB3F1FA3C63900134258 /* AppDelegate.swift */,
+				50CCEB4D1FA3C64B00134258 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		50CCEB411FA3C63900134258 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		50CCEB421FA3C63900134258 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50CCEB431FA3C63900134258 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				50CCEB441FA3C63900134258 /* LaunchScreen.storyboard */,
+				50CCEB451FA3C63900134258 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		50CCEB461FA3C63900134258 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		50CCEB471FA3C63900134258 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		96153D52EBD1CA1495DF4E3A /* Pods */ = {
@@ -150,9 +209,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50CCEB161FA3A9FF00134258 /* LaunchScreen.storyboard in Resources */,
-				50CCEB131FA3A9FF00134258 /* Assets.xcassets in Resources */,
-				50CCEB111FA3A9FF00134258 /* Main.storyboard in Resources */,
+				50CCEB4C1FA3C63900134258 /* Main.storyboard in Resources */,
+				50CCEB4A1FA3C63900134258 /* Assets.xcassets in Resources */,
+				50CCEB4B1FA3C63900134258 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,31 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50CCEB0E1FA3A9FF00134258 /* ViewController.swift in Sources */,
-				50CCEB0C1FA3A9FF00134258 /* AppDelegate.swift in Sources */,
+				50CCEB4E1FA3C64B00134258 /* MainViewController.swift in Sources */,
+				50CCEB491FA3C63900134258 /* AppDelegate.swift in Sources */,
+				50CCEB481FA3C63900134258 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		50CCEB0F1FA3A9FF00134258 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50CCEB101FA3A9FF00134258 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		50CCEB141FA3A9FF00134258 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50CCEB151FA3A9FF00134258 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		50CCEB181FA3A9FF00134258 /* Debug */ = {
@@ -361,6 +402,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XHF7PDLDGF;
 				INFOPLIST_FILE = HopeIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HopeIt.HopeIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -377,6 +419,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XHF7PDLDGF;
 				INFOPLIST_FILE = HopeIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HopeIt.HopeIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
